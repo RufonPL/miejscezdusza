@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'Catamaran';
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/googlefonts/Catamaran-normal-300.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Catamaran';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/googlefonts/Catamaran-normal-400.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Catamaran';
+	font-style: normal;
+	font-weight: 600;
+	src: url(../fonts/googlefonts/Catamaran-normal-600.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Catamaran';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/googlefonts/Catamaran-normal-700.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Yrsa';
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/googlefonts/Yrsa-normal-300.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Yrsa';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/googlefonts/Yrsa-normal-400.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Yrsa';
+	font-style: normal;
+	font-weight: 600;
+	src: url(../fonts/googlefonts/Yrsa-normal-600.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Yrsa';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/googlefonts/Yrsa-normal-700.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+

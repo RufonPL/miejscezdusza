@@ -1,0 +1,43 @@
+.entry {
+	font-size: 14px;
+}
+
+.entry-content {
+	font-size: 14px;
+}
+
+.entry-content ul{
+	padding-left: 40px;
+}
+
+
+/* Laury - bez opacity, po najechaniu powiekszaja sie */
+.awarded-mask .awarded-link{
+	opacity: 1;
+}
+
+.awarded-mask .transition {
+	transition: all 2s ease-in-out;
+}
+
+.awarded-link:hover {
+	transform: scale(1.1,1.1);
+}
+
+
+/* elementy Znalezionych miejsc spelniajacych / niespelniajacych kryteria */
+.alert {
+	font-size: 14px;
+}
+
+
+/* uwydatnienie fragmentu tekstu na "MAPA" */
+.tooltip-text strong {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* newsletter, przycisk w dół */
+.freshmail_form_1 button {
+	margin-top: 10px;
+}

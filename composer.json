@@ -1,0 +1,7 @@
+{
+    "require": {
+        "openpayu/openpayu": "^2.2",
+        "paypal/rest-api-sdk-php": "^1.11",
+        "dompdf/dompdf": "^0.8.0"
+    }
+}
