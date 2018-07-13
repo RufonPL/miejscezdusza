@@ -87,6 +87,10 @@ function monthPlaceHeader($monthOnly=false, $monthNo = false) {
 	$base 			= 'miejsce_miesiaca.png';
 	$month 			= $monthNo ? absint( $monthNo ) : placeMonth(true);
 
+    if ($monthOnly === false){
+        $month--;
+    }
+
 	if( $monthOnly ) {
 		return '<img class="month-name" src="'.esc_url( $imgsPath.'dates/'.monthSlug($month) ).'.png" alt="'.monthSlug($month).'">';
 	}else {
