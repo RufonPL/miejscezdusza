@@ -98,6 +98,14 @@ function monthPlaceHeader($monthOnly=false, $monthNo = false) {
 	}
 }
 
+function monthPlaceImageUrl($place_id){
+    $has_won = has_ever_won( $place_id );
+    if ($has_won){
+        $imgsPath 		= get_bloginfo( 'template_url' ).'/images/';
+        return esc_url( $imgsPath.'dates/'.monthSlug($has_won->month) ).'.png';
+    }
+}
+
 /**
  * This function will render html header for a year contest
  * @param n/a

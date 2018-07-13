@@ -11,6 +11,9 @@
 				<pi-item></pi-item>
 			</div>
 		</div>
+        <div class="place-laurel" data-ng-if="place.hasLaurMonth">
+            <img class="month-name" src="{{ place.hasLaurMonth }}">
+        </div>
 		<a class="nuh" data-ng-href="{{ place.link }}">
 		<div class="place-item-header">
 			<h2 class="no-margin">{{ place.name }}</h2>

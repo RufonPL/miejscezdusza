@@ -56,6 +56,7 @@ function loadPlaces_posts_data($posts, $contest = '', $exclude) {
 				'link'		=> esc_url(get_permalink()),
 				'extras'	=> $place_extras,
 				'votedOn'	=> $hasVotedToday,
+                'hasLaurMonth' => monthPlaceImageUrl( get_the_ID() )
 			);
 		}
 	} wp_reset_postdata();
